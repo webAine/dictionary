@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <main class="main">
+        <h1>Your best <span>dictionary</span></h1>
+        <form class="form">
+          <div class="form__group">
+            <input class="form__group-input" type="text" name="word" id="word-input" placeholder="Type a word" value="" />
+          </div>
+          <button class="form__group-button" type="submit">Search</button>
+        </form>
+        <div class="error">
+          <p class="error__message"></p>
+        </div>
+        <div class="results">
+          <div class="results__info">
+            <p class="results__word"></p>
+            <div class="results__sound">
+              <img class="results__sound-img" src="./images/sound.png" alt="" />
+            </div>
+          </div>
+          <div class="results__list"></div>
+        </div>
+      </main>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
