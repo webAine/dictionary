@@ -22,8 +22,7 @@ Project Structure
 Installation
 
     Clone the repository:
-
-git clone https://github.com/your-project/dictionary.git
+    git clone https://github.com/your-project/dictionary.git
 
 Navigate to the project folder:
 
